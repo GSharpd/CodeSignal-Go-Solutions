@@ -9,6 +9,7 @@
 // For a = [2, 2], the output should be solution(a) = 2;
 
 // For a = [2, 4, 3, 5, 1], the output should be solution(a) = -1.
+package main
 
 func solution(a []int) int {
 	return returnFirstDupeMinIndex(a)
