@@ -33,3 +33,11 @@ func solution(a []int) []int {
 
 	return res
 }
+
+// Easier solution would be assigning to an array by the %2 of i since even numbers are always 0 and odds are always 1
+func solution2(a []int) (r [2]int) {
+	for i, w := range a {
+		r[i%2] += w
+	}
+	return
+}
